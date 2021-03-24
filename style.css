@@ -1,0 +1,306 @@
+body{
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+header{
+    height: 165px;
+    width: 100%;
+    background-color: rgb(1,61,126);
+    color: #FFF;
+    overflow: hidden;
+}
+
+section{
+    height: auto;
+    width: 100%;
+    background-color: #DDD;
+}
+
+footer{
+    height: auto;
+    width: 100%;
+    background-color: rgb(47,48,52);
+    overflow: hidden;
+}
+
+.content-holder{
+    width: 1100px;
+    margin: 0px auto;
+    overflow: hidden;
+}
+
+header .content-holder{
+    margin: 0px auto;
+    border: 1px solid rgb(1,61,126);
+    height: 180px;
+}
+
+.title{
+    font-size: 3.5em;
+    padding-right: 140px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.logo{
+    height: 90px;
+    margin-top: 20px;
+    margin-left: 30px;
+    float: left;
+}
+
+ul{
+    margin-top: -41px;
+    margin-left: 23.5%;
+    width: 500px;
+}
+
+.content-holder li{
+    display: inline-block;
+    list-style-type: none;
+    border-bottom: 4px solid rgb(1,61,126);
+    padding: 10px 20px;
+    transition: 0.15s;
+    cursor: pointer;
+    font-size: 25px;
+    color: #BBB;
+    margin-top: -00px;
+}
+
+.content-holder li:hover, 
+.content-holder li.hovered{
+    color: white;
+}
+
+.white-class{
+    color: white;
+}
+
+.klasa{
+    border-bottom-color: rgb(0,188,255); 
+}
+
+.item{
+    width: 24%;
+    height: 190px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 0px;
+    display: inline-block;
+}
+
+#onama h1{
+    color: rgb(1,61,126);
+}
+
+header .content-holder a{
+    float: right;
+    margin-top: -150px;
+}
+
+header .content-holder a img {
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    transition: 0.1s;
+}
+header .content-holder a img:hover, .wap-icon:hover{
+    box-shadow: 0px 0px 5px white;
+}
+
+.fb-icon{
+    margin-right: 80px;
+}
+.yt-icon{
+    margin-right: 40px;
+}
+
+.wap-icon {
+    height: 20px;
+    width: 20px;
+    border-radius: 5px;
+    transition: 0.1s;
+}
+
+#pocetna table, tr, td{
+    border: 1px solid rgb(1,61,126);
+    border-collapse: collapse;
+    padding: 4px;
+}
+#pocetna tr{
+    height: 20px;
+}
+#pocetna td{
+    width: 80px;
+}
+
+h1, h2{
+    color: rgb(1,61,126);
+}
+
+tr.border_bottom td {
+    border-bottom: 2px solid rgb(0,188,255);
+    border-right: 1px solid white;
+    background-color: rgb(1,61,126);
+}
+
+.service-item{
+    width: 30%;
+    height: 145px;
+    border: 2px solid #FFF;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 15px;
+    transition: 0.1s;
+}
+.service-item:hover{
+    background-color: #FFF;
+}
+.service-item p{
+    text-align: center;
+}
+.service-item img{
+    margin-left: 132px;
+    border-radius:100%;
+}
+
+.prodaja-div{
+    width: 100%;
+    height: 200px;
+    float: left;
+    padding: 15px;
+    margin-top: -20px;
+}
+
+.prodaja-div img{
+    width: 100px;
+    height: 50px;
+}
+
+.pocetna-desno{
+    margin-left: 340px;
+    margin-top: -303px;
+}
+
+.pocetna-lijevo{
+    margin-top: 0px;
+}
+
+.height50{
+    width: 1px;
+    height: 50px;
+}
+
+table.bezBoje tr td{
+     font-size: 1.2em;
+}
+
+table.bezBoje tr td{
+     border: none;
+}
+
+table.bezBoje tr td:first-child{
+     font-weight: bold;
+}
+
+.fbContactLink{
+    text-decoration: none;
+    color: rgb(1,61,126);
+    transition: 0.1s;
+}
+
+.fbContactLink:hover{
+    text-decoration: none;
+    color: rgb(0,188,255);
+}
+
+.em1-2{
+    font-size: 1.2em;
+}
+
+.borderEdit table, tr, td{
+    border: 1px solid rgb(1,61,126);
+    border-collapse: collapse;
+    padding: 4px;
+}
+
+.float-left{
+    float: left;
+    width: 40%;
+}
+
+.clear{
+    clear: left;
+}
+
+.horizontal-line{
+    border: 1px solid rgb(1,61,126);
+    margin-top: 40px;
+    float: left;
+    width: 100%;
+    height: 1px;
+}
+
+.float-left form .text{
+    height: 25px;
+    padding: 5px;
+    width: 300px;
+    font-size: 20px;
+}
+
+.posalji-mail, .otkazi-mail{
+    width: 154px;
+    height: 40px;
+    font-size: 1.2em;
+    transition: 0.1s;
+}
+
+.posalji-mail{
+    background-color: #2EDD71;
+    border-radius: 5px;
+    border: 3px solid #2EDD71;
+    color: white;
+}
+
+.posalji-mail:hover{
+    background-color: white;
+    color: #2EDD71;
+    cursor: pointer;
+}
+
+.otkazi-mail{
+    background-color: #D00;
+    border-radius: 5px;
+    border: 3px solid #D00;
+    color: white;
+}
+
+.otkazi-mail:hover{
+    background-color: white;
+    color: #D00;
+    cursor: pointer;
+}
+
+form, #kontaktirajteNas{
+    padding-left: 60px;
+}
+
+.kontaktirajteNas{
+    overflow: hidden;
+    height: 65px;
+    border-radius: 10px;
+    background-color: #EEE;
+    transition: 0.4s;
+}
+
+.pomakDolje{
+    margin-top: 20px;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    padding: 0px;
+}
