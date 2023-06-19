@@ -1,8 +1,14 @@
-/* body{
+body{
     margin: 0px;
     font-family: sans-serif;
 }
 
+.custom-tabs {
+    width: fit-content; 
+    margin: 0px auto;
+}
+
+/*
 header{
     height: 165px;
     width: 100%;
